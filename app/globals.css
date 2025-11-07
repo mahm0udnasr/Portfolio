@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-poppins: "Poppins", sans-serif;
+  --font-rubik: "Rubik", sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-poppins: var(--font-poppins);
+  --font-rubik: var(--font-rubik);
+}
+
+@layer utilities {
+  .pixel-gradient-bg {
+    --pixel-size: 40px;
+    --line-thickness: 1px;
+    --line-color: 255, 255, 255;
+    --line-alpha: 0.08;
+    --g1: #0f0c29;
+    --g2: #242145;
+    --g3: #24243e;
+    background: repeating-linear-gradient(
+        90deg,
+        rgba(var(--line-color), var(--line-alpha)) 0 calc(var(--line-thickness)),
+        transparent calc(var(--line-thickness)) var(--pixel-size)
+      ),
+      repeating-linear-gradient(
+        0deg,
+        rgba(var(--line-color), var(--line-alpha)) 0 calc(var(--line-thickness)),
+        transparent calc(var(--line-thickness)) var(--pixel-size)
+      ),
+      linear-gradient(135deg, var(--g1) 0%, var(--g2) 50%, var(--g3) 100%);
+    background-blend-mode: overlay;
+    min-height: 100vh;
+  }
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
