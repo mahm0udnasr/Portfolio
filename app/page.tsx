@@ -37,7 +37,7 @@ export default function Home() {
           <a
             href="/Mahmoud Nasr _Front-end Developer _resume.pdf"
             download={true}
-            className="group relative inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-black bg-orange-500 rounded-lg transition-all duration-300 ease-out hover:bg-transparent hover:text-orange-500 border-2 hover:border-orange-500 hover:shadow-[0_0_20px_rgba(249,115,22,0.4)] active:scale-95 overflow-hidden"
+            className="group relative inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-black bg-orange-500 rounded-lg transition-all duration-300 ease-out hover:bg-transparent hover:text-orange-500 border-2 border-orange-500 hover:shadow-[0_0_20px_rgba(249,115,22,0.4)] active:scale-95 overflow-hidden"
           >
             <span className="relative z-10 flex items-center gap-2">
               <Download size={18} />

@@ -43,15 +43,13 @@ export const metadata: Metadata = {
     title: "Mahmoud Nasr | Full Stack & Next.js Developer",
     description:
       "Building modern, scalable, and high-performance web applications with Next.js, React, and Node.js.",
-    // TODO
-    url: "",
+    url: "https://mahmoudnasr-portfolio.pages.dev/",
     siteName: "Mahmoud Nasr Portfolio",
     locale: "en_US",
     type: "website",
   },
   alternates: {
-    // TODO:
-    canonical: "",
+    canonical: "https://mahmoudnasr-portfolio.pages.dev/",
   },
 };
 
