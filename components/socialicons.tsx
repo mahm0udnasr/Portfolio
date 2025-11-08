@@ -23,6 +23,7 @@ const allIcons = [
     title: "Github",
   },
 ];
+
 export default function SocialIcons() {
   return (
     <div className="flex gap-6 justify-center items-center">
