@@ -1,3 +1,4 @@
+import AvailableForWork from "@/components/AvailableForWork";
 import SocialIcons from "@/components/socialicons";
 import TextEffect from "@/components/texteffect";
 import { Download } from "lucide-react";
@@ -6,6 +7,7 @@ export default function Home() {
   return (
     <main className="pixel-gradient-bg">
       <div className="h-screen w-auto flex flex-col justify-center items-center gap-4">
+        <AvailableForWork />
         <h3 className="text-white font-poppins text-2xl max-sm:text-xl">
           My Name Is
         </h3>
