@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Poppins, Rubik } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+// import Navbar from "@/components/Navbar";
+import Script from "next/script";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -61,6 +62,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
+      </head>
       <body className={`${poppins.variable} ${rubik.variable} antialiased`}>
         {/* <Navbar /> */}
         {children}
