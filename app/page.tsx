@@ -5,7 +5,7 @@ import { Download } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="pixel-gradient-bg">
+    <main >
       <div className="h-screen w-auto flex flex-col justify-center items-center gap-4">
         <AvailableForWork />
         <h3 className="text-white font-poppins text-2xl max-sm:text-xl">
