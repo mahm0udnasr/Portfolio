@@ -15,7 +15,7 @@ interface LinkComponentProps {
   children: ReactNode;
   label: string;
   isActive?: boolean;
-  onClick: () => string;
+  onClick: () => void;
 }
 
 const LinkComponent = ({
