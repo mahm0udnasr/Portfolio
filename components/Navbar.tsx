@@ -64,14 +64,9 @@ const Navbar = () => {
   const navItems = [
     { href: "/", icon: <Home size={22} />, label: "Home" },
     { href: "/about", icon: <User size={22} />, label: "About" },
-    { href: "/skills", icon: <Lightbulb size={22} />, label: "Skills" },
-    {
-      href: "/education",
-      icon: <GraduationCap size={22} />,
-      label: "Education",
-    },
+    // { href: "/skills", icon: <Lightbulb size={22} />, label: "Skills" },
     { href: "/projects", icon: <FolderGit2 size={22} />, label: "Projects" },
-    { href: "/contact-us", icon: <Mail size={22} />, label: "Contact" },
+    // { href: "/contact-us", icon: <Mail size={22} />, label: "Contact" },
   ];
 
   return (
