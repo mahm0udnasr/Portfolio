@@ -19,7 +19,7 @@ export default function Home() {
           <div className="font-poppins text-base sm:text-2xl max-sm:flex max-sm:flex-col text-balance text-gray-300">
             I am a Freelancer &{" "}
             <span className="font-rubik text-lg sm:text-3xl leading-tight text-orange-500">
-              <TextEffect />
+              Next.js Developer
             </span>
           </div>
         </div>
