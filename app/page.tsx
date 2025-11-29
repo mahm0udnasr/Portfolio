@@ -5,21 +5,31 @@ import { Download } from "lucide-react";
 
 export default function Home() {
   return (
-    <main >
-      <div className="h-screen w-auto flex flex-col justify-center items-center gap-4">
+    <main>
+      <div
+        className="h-screen w-auto flex flex-col justify-center items-center gap-4"
+        itemScope
+        itemType="https://schema.org/Person"
+      >
         <AvailableForWork />
         <h3 className="text-white font-poppins text-2xl max-sm:text-xl">
           My Name Is
         </h3>
-        <h1 className="block text-white font-rubik text-8xl max-sm:text-5xl">
-          MahmoudNasr
+        <h1
+          className="block text-white font-rubik text-8xl max-sm:text-5xl"
+          itemProp="name"
+        >
+          Mahmoud Nasr
           {/* <span className="font-poppins text-orange-500  text-6xl">.</span> */}
         </h1>
         <div className="py-4 rounded-md flex flex-col justify-center items-center overflow-hidden">
           <div className="font-poppins text-base sm:text-2xl max-sm:flex max-sm:flex-col text-balance text-gray-300">
             I am a Freelancer &{" "}
-            <span className="font-rubik text-lg sm:text-3xl leading-tight text-orange-500">
-              Next.js Developer
+            <span
+              className="font-rubik text-lg sm:text-3xl leading-tight text-orange-500"
+              itemProp="jobTitle"
+            >
+              Full Stack & Next.js Developer
             </span>
           </div>
         </div>
