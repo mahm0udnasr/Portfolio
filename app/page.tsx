@@ -29,7 +29,7 @@ export default function Home() {
               className="font-rubik text-lg sm:text-3xl leading-tight text-orange-500"
               itemProp="jobTitle"
             >
-              Full Stack & Next.js Developer
+              {/* Full Stack &  */}Next.js Developer
             </span>
           </div>
         </div>
