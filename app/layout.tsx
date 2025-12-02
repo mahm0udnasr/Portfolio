@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins, Rubik } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/app/navbar";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -150,9 +150,9 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${poppins.variable} ${rubik.variable} antialiased pixel-gradient-bg`}
+        className={`${poppins.variable} ${rubik.variable} pixel-gradient-bg`}
       >
-        {/*<Navbar />*/}
+        {/* <Navbar /> */}
         {children}
       </body>
     </html>

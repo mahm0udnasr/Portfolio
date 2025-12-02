@@ -2,6 +2,8 @@
 
 :root {
   --background: #ffffff;
+  --secondary: #f1f5f9;
+  --secondary-foreground: #0f172a;
   --foreground: #171717;
   --font-poppins: "Poppins", sans-serif;
   --font-rubik: "Rubik", sans-serif;
@@ -9,6 +11,8 @@
 
 @theme inline {
   --color-background: var(--background);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
   --color-foreground: var(--foreground);
   --font-poppins: var(--font-poppins);
   --font-rubik: var(--font-rubik);
