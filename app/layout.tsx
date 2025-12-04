@@ -152,7 +152,7 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} ${rubik.variable} pixel-gradient-bg`}
       >
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
       </body>
     </html>
