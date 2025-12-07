@@ -22,6 +22,7 @@ const AboutPage = () => {
       <HeaderPage
         Icon={User}
         title="Web Developer, Based In Egypt."
+        badgeTitle="About Me"
         description="I am a Full Stack Web Developer from Egypt, Garbia, Tanta. I'm passionate about crafting web projects and contributing to open-source communities. I specialize in modern JavaScript frameworks and responsive CSS design, focusing on creating pixel-perfect, user-friendly interfaces. With strong attention to detail and efficient delivery, I build seamless web experiences that combine functionality with elegant design."
       />
 
