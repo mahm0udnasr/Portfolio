@@ -1,4 +1,3 @@
-import React from "react";
 import { Metadata } from "next";
 import HeaderPage from "../components/header";
 import { Dna, Earth, Heart, Languages, User } from "lucide-react";
@@ -32,10 +31,10 @@ const AboutPage = () => {
             <Languages />
           </Title>
           <ul className="flex flex-col gap-3 mt-6">
-            <li className="list-inside ml-5 text-secondary text-lg marker:text-orange-400">
+            <li className="list-inside list-disc ml-5 text-secondary text-lg marker:text-orange-400">
               Arabic
             </li>
-            <li className="list-inside ml-5 text-secondary text-lg marker:text-orange-400">
+            <li className="list-inside list-disc ml-5 text-secondary text-lg marker:text-orange-400">
               English
             </li>
           </ul>
@@ -46,7 +45,7 @@ const AboutPage = () => {
             <Earth />
           </Title>
           <ul className="mt-6">
-            <li className="list-inside ml-5 text-secondary text-lg marker:text-orange-400">
+            <li className="list-inside list-disc ml-5 text-secondary text-lg marker:text-orange-400">
               Egypt
             </li>
           </ul>
@@ -57,7 +56,7 @@ const AboutPage = () => {
             <Dna />
           </Title>
           <ul className="mt-6">
-            <li className="list-inside ml-5 text-secondary text-lg marker:text-orange-400">
+            <li className="list-inside list-disc ml-5 text-secondary text-lg marker:text-orange-400">
               Male
             </li>
           </ul>
@@ -69,10 +68,10 @@ const AboutPage = () => {
           <Heart />
         </Title>
         <ul className="flex flex-wrap gap-6 mt-6">
-          <li className="list-inside ml-5 text-secondary text-lg marker:text-orange-400">
+          <li className="list-inside list-disc ml-5 text-secondary text-lg marker:text-orange-400">
             Coding
           </li>
-          <li className="list-inside ml-5 text-secondary text-lg marker:text-orange-400">
+          <li className="list-inside list-disc ml-5 text-secondary text-lg marker:text-orange-400">
             Creating Cool Projects
           </li>
         </ul>

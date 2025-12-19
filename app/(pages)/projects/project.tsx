@@ -1,4 +1,4 @@
-import { ExternalLink, Github, ArrowRight } from "lucide-react";
+import { Github, ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 interface ProjectProps {
@@ -19,10 +19,9 @@ export default function Project({
   demoLink,
   sourceCodeLink,
 }: ProjectProps) {
-  // const skills = ["React", "D3.js", "Tailwind CSS"];
 
   return (
-    <div className="group relative w-full bg-white dark:bg-neutral-900 rounded-2xl border border-gray-200 dark:border-white/10 overflow-hidden hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300 hover:-translate-y-1">
+    <div className="group relative w-full bg-white dark:bg-neutral-900 rounded-2xl border border-gray-200 dark:border-white/10 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
       {/* Image Section */}
       <div className="relative h-48 w-full overflow-hidden bg-gray-100 dark:bg-neutral-800">
         <Image
